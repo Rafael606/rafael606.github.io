@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUATROX Fashion</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="C:\Users\Rafael Campos\Documents\logica de programação ll\atividadeQUATROX\index.css">
+
+    <video autoplay muted loop class="video-background">
+        <source
+            src="C:\Users\Rafael Campos\Documents\logica de programação ll\atividadeQUATROX\imagens\mulher.mp4"
+            type="video/mp4">
+    </video>
+    <style>
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+    </style>
+
+</head>
+<body>
+    
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/128/9984/9984878.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">sobre</a>
+        <a href="#menu">menu</a>
+        <a href="#products">produtos</a>
+        <a href="#contact">contatos</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+
+</header>
+
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Descubra seu estilo.Reinvente-se. Brilhe.</h3>
+        <p class="paragrafo">Da passarela à sua vida, nossas roupas são a expressão máxima de estilo, qualidade e sofisticação.</p>
+        <a href="#" class="btn">Obtenha o seu look agora</a>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>sobre</span> nós </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="https://www.trd-store.com/images/adult.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>o que torna nossas roupas especiais?</h3>
+            <p>Nossas roupas são feitas com materiais de alta qualidade, garantindo durabilidade e conforto incomparáveis.Cada peça é cuidadosamente projetada por designers talentosos, combinando estilo e funcionalidade para um visual único.</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> nosso <span>menu <p>Alguns conjuntos feitos para você:</p></span> </h1>
+    <span></span>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://avatars.mds.yandex.net/i?id=f38bbe9418c8caaab8e25fb8e03eed537dfefb0a-11459613-images-thumbs&n=13" alt="">
+            <h3>Modelo 1</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="https://avatars.mds.yandex.net/i?id=4a8bee5ec0078bd53c51a68106cdb783177ea76d-8357950-images-thumbs&n=13" alt="">
+            <h3>Modelo 2</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/fb/a3/12/fba3125c4dcd09e4122c767b05028934.jpg" alt="">
+            <h3>Modelo 3</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="https://avatars.mds.yandex.net/i?id=a9b6a7cdc0ef04ecaee55f1923e249b9-5089089-images-thumbs&n=13" alt="">
+            <h3>Modelo 4</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="https://avatars.mds.yandex.net/i?id=fd6564ebf3a1611743122d9ea363bf0e98c107d8-8451085-images-thumbs&n=13" alt="">
+            <h3>Modelo 5</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/ea/12/09/ea1209b3c41b8a362fbafd050adb9521.jpg" alt="">
+            <h3>Modelo 6</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">adicionar ao carrinho</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="products" id="products">
+
+    <h1 class="heading"> outros <span>produtos</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="https://avatars.mds.yandex.net/i?id=0c990a14946f89b4cfbca87a5ac7edf7f01883db-8500949-images-thumbs&n=13" alt="">
+            </div>
+            <div class="content">
+                <h3>Bolsas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/originals/33/dd/8d/33dd8dbbb781dd5482f67fbf412ff9e1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Oculos</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="https://avatars.mds.yandex.net/i?id=043d205ebae3362fa8e139c50d3ee247776477ba-8310482-images-thumbs&n=13" alt="">
+            </div>
+            <div class="content">
+                <h3>Calçados</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contate</span> -nós </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>entrar em contato</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="enviar" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">sobre</a>
+        <a href="#">menu</a>
+        <a href="#">produtos</a>
+        <a href="#">contatos</a>
+    </div>
+
+    <div class="credit">criado por <span>Rafael de Oliveira Campos</span> | all rights reserved</div>
+
+</section>
+</body>
+</html>
