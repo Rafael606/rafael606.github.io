@@ -1,0 +1,94 @@
+
+body {
+    margin: 60px;
+    width: 100%;
+   padding: 30px;
+  }
+
+.fw-lighter text-center mt-3{
+    text-decoration-color: white;
+}
+  
+.navbar {
+    z-index: 999; } 
+  
+.carousel {
+    margin-top: 56px; }
+
+.content {
+    padding-top: 20px; 
+  }
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.carousel-item active{
+    width: 80px;
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* sonbreamento carrossel */
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31,31,31));
+    position: absolute;
+}
+
+.blockquote{
+    color: white;
+    font-size: 80x;
+}
+
+.card img{
+    height: 300px;
+    object-fit: cover;
+}
+
+main{
+    margin-top: 4.5rem;
+}
+
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer { 
+    background-color: #8f0000aa;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Adicionado para posicionar o ícone */
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #ccc;
+    padding: 10px;
+}
+
+.footer-icon {
+    margin-left: 10px;
+}
+
