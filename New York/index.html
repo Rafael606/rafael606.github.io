@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+        href="C:\Users\Rafael Campos\Documents\logica de programação ll\New York\index.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<video autoplay muted loop id="video-background">
+    <source
+        src="C:\Users\Rafael Campos\Documents\logica de programação ll\New York\images\New York City at Night for Wallpaper Engine 4K.mp4"
+        type="video/mp4">
+</video>
+<style>
+    #video-background {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+</style>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img
+                        src="C:\Users\Rafael Campos\Documents\logica de programação ll\New York\images\transferir.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Historia e arquitetura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Politica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mais informações</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+    <!--  -->
+    <div id="carouselExampleCaptions" class="carousel slide mt-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" active data-bs-interval="10000">
+                <img src="https://wallpapers.com/images/featured/new-york-4k-m8f9wvk92xym4seu.jpg" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nova York</h5>
+                    <p>Trazendo a melhor experiencia da sua vida.</p>
+                </div>
+            </div>
+            <div class="carousel-item" active data-bs-interval="10000">
+                <img src="https://www.fubiz.net/wp-content/uploads/2019/03/NAVID5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nova York</h5>
+                    <p>É um ballet acelerado de táxis amarelos, metrôs enérgicos e a constante sinfonia de passos
+                        apressados pelas calçadas movimentadas.</p>
+                </div>
+            </div>
+            <div class="carousel-item" active data-bs-interval="10000">
+                <img src="https://w.forfun.com/fetch/2b/2be6f10e6c5db1909bf3efeb75a7ff1f.jpeg" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nova York</h5>
+                    <p>Suas ruas sussurram histórias sob o céu imponente da cidade que nunca dorme.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+            
+    </div>
+    <!--  -->
+    <figure>
+        <blockquote class="blockquote">
+            <h3 class="fw-lighter text-center mt-3">Alguns pontos turisticos:</h3>
+        </blockquote>
+        <figcaption class="blockquote-footer text-center mb-5">
+            ---------------- <cite title="Source Title"></cite>
+        </figcaption>
+    </figure>
+    <!--  -->
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://i.pinimg.com/originals/d8/f4/53/d8f4535fa94459423dab47d42406df40.jpg"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Times Square</h5>
+                                <p class="card-text">Times Square é o coração vibrante de Nova York, conhecido por seus
+                                    luminosos e espetáculos teatrais. Uma fusão de cultura, entretenimento e movimento
+                                    constante.
+                                </p>
+                                <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://i.pinimg.com/736x/9f/49/1d/9f491d8ec89f4cdf5781a5b8ff68832a--beautiful-places-wanderlust.jpg"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Central Park</h5>
+                                <p class="card-text">Central Park, o oásis verdejante no coração da metrópole, oferece
+                                    um refúgio sereno com lagos, trilhas e paisagens encantadoras, contrastando com a
+                                    agitação urbana circundante.</p>
+                                <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://i.pinimg.com/736x/ed/af/f5/edaff5c8b94ac6046a883e6f0851a434--ny-usa-statues.jpg"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Estátua da Liberdade</h5>
+                                <p class="card-text">A Estátua da Liberdade, ícone imortal da liberdade e democracia,
+                                    saúda os visitantes com sua presença majestosa, simbolizando os valores fundamentais
+                                    dos Estados Unidos.
+                                </p>
+                                <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://i.pinimg.com/736x/9b/4b/d7/9b4bd701e3cf5cdb052d88d342a86ffd.jpg"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Empire State</h5>
+                                <p class="card-text">O Empire State Building, com sua silhueta inconfundível, ergue-se
+                                    como um ícone arquitetônico de Nova York, oferecendo vistas panorâmicas
+                                    deslumbrantes e contando histórias de décadas de grandeza.</p>
+                                <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--  -->
+    <section id="menu" class="container mt-5 ">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-white bg-dark active" id="TNYT-tab" data-bs-toggle="tab"
+                    data-bs-target="#TNYT-tab-pane" type="button" role="tab" aria-controls="TNYT-tab-pane"
+                    aria-selected="true">The New York
+                    Times</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-white bg-dark" id="jornal-tab" data-bs-toggle="tab"
+                    data-bs-target="#jornal-tab-pane" type="button" role="tab" aria-controls="jornal-tab-pane"
+                    aria-selected="false">Jornal
+                    Diario</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-white bg-dark" id="noticias-tab" data-bs-toggle="tab"
+                    data-bs-target="#noticias-tab-pane" type="button" role="tab" aria-controls="noticias-tab-pane"
+                    aria-selected="false">Maiores Noticias do ano até o momento</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="TNYT-tab-pane" role="tabpanel" aria-labelledby="TNYT-tab"
+                tabindex="0">
+                <div class="card text-bg-dark">
+                    <img src="https://nypost.com/wp-content/uploads/sites/2/2019/08/new-york-times-5.jpg?quality=75&amp;strip=all&amp;w=1024"
+                        class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-dark">NYT</h5>
+                        <p class="card-text text-dark"> jornal diário estadunidense, fundado e publicado continuamente
+                            em Nova York desde 18 de Setembro de 1851, pela The New York Times Company.</p>
+                        <p class="card-text"><small></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="jornal-tab-pane" role="tabpanel" aria-labelledby="jornal-tab" tabindex="0">
+                Jornal Diario
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://avatars.mds.yandex.net/i?id=4285379ad43b8ca68194ab6aa19527547ca9beae-5175466-images-thumbs&n=13"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://avatars.mds.yandex.net/i?id=0d841078bc323291e97fe8ed004c8738093176bd-8407394-images-thumbs&n=13"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://1.bp.blogspot.com/-3UegNem4J4A/YBZzbX1j1-I/AAAAAAAAebc/s1LDIKSADWg1QZPta2oEJ3VlEHsoe1MBQCLcBGAsYHQ/w1200-h630-p-k-no-nu/PHOTO-2021-01-30-19-00-09.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://joinarnold.com/wp-content/uploads/2023/06/arnold-News.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://avatars.mds.yandex.net/i?id=039b367482dc7b242309eedbf3a60b2ff1488266-8498118-images-thumbs&n=13"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://avatars.mds.yandex.net/i?id=7696e22d55c670c3961d1acb4a262f8935d712ca-8552726-images-thumbs&n=13"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="noticias-tab-pane" role="tabpanel" aria-labelledby="noticias-tab"
+                tabindex="0">
+                Maiores Noticias do ano até o momento
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://3.bp.blogspot.com/-auZor-MoEh8/TmTwiNrUu1I/AAAAAAAAAgg/6S-f3NKuw1w/s1600/9.11+headlines002.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://1.bp.blogspot.com/-3UegNem4J4A/YBZzbX1j1-I/AAAAAAAAebc/s1LDIKSADWg1QZPta2oEJ3VlEHsoe1MBQCLcBGAsYHQ/w1200-h630-p-k-no-nu/PHOTO-2021-01-30-19-00-09.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://media.npr.org/assets/img/2013/08/06/nytimes062way_custom-6a16df2c929495595a2db9ae7b224aa55d390e74.jpg?s=6"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://pbs.twimg.com/media/ElgMKStXUAA4I0V.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://pbs.twimg.com/media/B_k9ox_WEAI08jk.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOS_n8Hzs--fvsKAudzTBlyWMYQkSu0BapHR9XNlIM18nB0MA6SHU8kskI_dv2i3ouADK7DoNV4b2l6fh_LAlOhIE-4LWH-eib-0m9BRSEJnswKHAaWXXdQlZta-zirk1NRAjoZCR1kpzd2CrILUpZsLC_7RWhnX3DIQGP_e45CBQPGuyXYjJc215jOA/s1600/05color-top-videoSixteenByNineJumbo1600.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--  -->
+    <section id="local" class="container text-center mt-5 mb-5">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Site do NYT
+        </button>
+<!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NYT</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Endereço</p>
+                        <p>New York Times Building 620 Eighth Avenue Nova Iorque, Estados Unidos</p>
+                        <img src="https://www.luggageforward.com/wp-content/uploads/2013/01/New-York-Times1.png"
+                            alt=""><a target="_blank" href="https://www.nytimes.com/">https://www.nytimes.com/</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--  -->
+    <section>
+        <footer class="footer p-5">
+            <div class="footer-content">
+                <p>Everything is possible. This is New York.</p>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2024 New York City</span>
+                <span class="footer-icon"><i class="fas fa-heart"></i></span>
+                <img width="50px"
+                    src="C:\Users\Rafael Campos\Documents\logica de programação ll\bootstrap\images\transferir.png"
+                    alt="">
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
+</footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
